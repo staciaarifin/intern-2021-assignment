@@ -1,13 +1,15 @@
 package com.intern.demo;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Test;
+
+import static org.junit.Assert.assertNull;
 
 public class CapitalizationTest {
 
     @Test
     public void convertToMapTest() {
         //TODO COMPLETE THIS
-        assertNull(Capitalization.convertToMap());
+        assertNull(Capitalization.convertToMap(new Object()));
     }
 }

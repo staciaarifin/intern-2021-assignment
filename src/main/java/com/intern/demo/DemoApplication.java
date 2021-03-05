@@ -10,6 +10,8 @@ import java.util.List;
 @SpringBootApplication public class DemoApplication {
 
     public static void main(String[] args) {
+        // todo EXPECTED RESULT:
+        // {Jane Stark=[Local Book 1, Local Book 2, Local Book 3, Local Book 4], John Doe=[Imported Book 1, Imported Book 2, Imported Book 3, Imported Book 4]}
 
 //        ImportedBook importedBook1 = new ImportedBook("joHN dOE", "IMPORTED book 1", "joHN dOE");
 //        ImportedBook importedBook2 = new ImportedBook("joHN dOE", "IMPORTED book 2", "joHN dOE");
