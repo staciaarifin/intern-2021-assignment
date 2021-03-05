@@ -23,11 +23,10 @@ import java.util.List;
 //        LocalBook localBook3 = new LocalBook("jaNE stARk", "loCal bOok 3", "gramEDia");
 //        LocalBook localBook4 = new LocalBook("jaNE stARk", "loCal bOok 4", "gramEDia");
 
-//        List<Book> input = Arrays
-//            .asList(importedBook1, importedBook2, importedBook3, importedBook4, localBook1,
-//                localBook2, localBook3, localBook4);
+        // TODO CREATE A NEW LIST OBJECT CALLED "inputs" THAT CONSIST OF ALL BOOKS STATED ABOVE
 
-//        System.out.println(Capitalization.convertToMap(input));
+        // TODO CALL CAPITALIZATION convertToMap WITH "inputs" AS REQUEST AND PRINT IT OUT
+
 
 //        SpringApplication.run(DemoApplication.class, args);
     }

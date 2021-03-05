@@ -16,8 +16,9 @@ public class Capitalization {
     }
 
     public static Object convertToMap (Object object) {
-        // TODO Please Change The Input & Output to the expected result
-        // TODO Add logic to capitalize Author and Title Of Books to Map with Key: Author, Value: List of Title
+        // TODO Add logic to capitalize Author and Title Of Books to Map with Key: Author, Value: List of Title Grouped By Author
+        // TODO INPUT: List<Book>
+        // TODO OUTPUT: Map<String, List<String>>
         return null;
     }
 }
