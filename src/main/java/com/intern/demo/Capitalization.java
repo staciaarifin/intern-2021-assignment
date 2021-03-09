@@ -15,7 +15,7 @@ public class Capitalization {
         //TODO Add logic to capitalize String Input
         //TODO Input = "I want to lEARN JAVA"
         //TODO Output = "I Want To Learn Java"
-        return WordUtils.capitalize(input.toLowerCase());
+        return WordUtils.capitalizeFully(input);
     }
 
     public static Map<String, List<String>> convertToMap (List<Book> object) {

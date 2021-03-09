@@ -5,6 +5,7 @@ import org.junit.Test;
 import org.mockito.InjectMocks;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -30,8 +31,11 @@ public class CapitalizationTest {
         Map<String, List<String>> result = Capitalization.convertToMap(inputs);
         System.out.println(result);
 
-        String expected = "{Jane Stark=[Local Book 1, Local Book 2, Local Book 3, Local Book 4], John Doe=[Imported Book 1, Imported Book 2, Imported Book 3, Imported Book 4]}";
+        Map<String, List<String>> expected = new HashMap<String, List<String>>(){{
+            put("Jane Stark", Arrays.asList("Local Book 1", "Local Book 2", "Local Book 3", "Local Book 4"));
+            put("John Doe", Arrays.asList("Imported Book 1", "Imported Book 2", "Imported Book 3", "Imported Book 4"));
+        }};
 
-        assertEquals(expected, result.toString());
+        assertEquals(expected, result);
     }
 }

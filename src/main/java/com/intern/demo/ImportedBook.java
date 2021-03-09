@@ -2,8 +2,7 @@ package com.intern.demo;
 
 import lombok.*;
 
-@Getter
-@Setter
+@Data
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
 public class ImportedBook extends Book{
